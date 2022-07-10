@@ -5,7 +5,7 @@ string Function(double a1, double b1, double a2, double b2) // Функция н
     double x = (b1 + (-b2)) / -(a1 + (-a2));
     double y = a1 * x + b1;
 
-    string f = Convert.ToString(x);                         // Перевод координат в string чтобы вывести из метода обе 
+    string f = Convert.ToString(x);                         // Перевод координат в string чтобы вывести из метода обе координаты
     string g = Convert.ToString(y);                         // координаты в одной переменной.
     string j = f + ";" + g;
     return j;
